@@ -81,6 +81,8 @@ button {
 
 .quote {
     font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
 }
 
 .footer {
@@ -160,4 +162,24 @@ button {
     flex-wrap: wrap;
     gap: 8px;
     width: 170px;
+}
+
+.third-part {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: center;
+}
+
+.quote-and-author {
+    display: flex;
+    flex-direction: column;
+    width: 812px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 901;
 }
