@@ -65,7 +65,7 @@ button {
 
 .subtitle {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 901;
     color: #1F2937;
 }
 
@@ -121,4 +121,43 @@ button {
     justify-content: space-between;
     width: 1010px;
     height: 350px;
+}
+
+.illustrative-text { 
+  color: #5f6572;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: 440px;
+    padding-top: 45px;
+    gap: 45px;
+}
+
+.illustrative-texts {
+    display: flex;
+    gap: 40px
+}
+
+.illustrative-placeholder {
+    border-style:solid;
+    height: 150px;
+    width: 150px;
+    border-color:#3882F6; 
+    border-radius: 10px;
+    border-width: 4px;
+}
+
+.illustration-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 170px;
 }
