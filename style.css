@@ -70,8 +70,15 @@ button {
 }
 
 .modal {
+    display: flex;
     background-color: #3882F6;
     color: white;
+    height: 200px;
+    width: 1050px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
 
 .third-part {
@@ -182,4 +189,21 @@ button {
     display: flex;
     justify-content: flex-end;
     font-weight: 901;
+}
+
+.fourth-part {
+    display: flex;
+    width: -webkit-fill-available;
+    height: 425px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sign-up-button.second-button {
+    border-style: solid;
+}
+
+.modal-title {
+    font-weight: 901;
+    font-size:larger;
 }
