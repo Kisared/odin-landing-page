@@ -122,11 +122,11 @@ button {
 
 .placeholder {
     display: flex;
-    background-color: gray;
+    background-color: inherit;
     color: white;
     width: 500px;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 .header-and-main-header {
@@ -211,4 +211,8 @@ button {
 .modal-title {
     font-weight: 901;
     font-size:larger;
+}
+
+#fujinomiya-japan {
+    max-height: 300px;
 }
