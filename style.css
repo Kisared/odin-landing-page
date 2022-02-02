@@ -218,7 +218,8 @@ button {
 }
 
 .coronavirus-statistics,
-.coronavirus {
+.coronavirus,
+.foreign {
     max-width: 150px;
     height: 150px;
     border-radius: 4px;
