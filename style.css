@@ -217,7 +217,7 @@ button {
     max-height: 300px;
 }
 
-#coronavirus-statistics {
+.coronavirus-statistics {
     max-width: 150px;
     height: 150px;
     border-radius: 4px;
