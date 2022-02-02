@@ -216,3 +216,9 @@ button {
 #fujinomiya-japan {
     max-height: 300px;
 }
+
+#coronavirus-statistics {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
